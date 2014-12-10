@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Química</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1 style="font-style: italic;">A Química no nosso dia a dia</h1>
+			
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="01.html">Apresentação</a></li>
+                    <li><a href="02.html">Tópico 01: O corpo humano e as reações químicas</a></li>
+                    <li><a href="03.html">Tópico 02: No ar que respiramos tem química?</a></li>
+                    <li><a href="04.html">Tópico 03: A sociedade e a química</a></li>
+
+				</ul>
+			</li>
+			<li><a href="orientacoes.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="02.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 02: No ar que respiramos tem química?</h2>
+		</div>
+	</div>
+	
+    <br/>
+    <div class="linha">
+		<div class="coluna lateral quadro_imagem">			
+			<img src="layout/quadro-olhando.png"/>	
+		</div>
+		<div class="coluna principal quadro ">
+			<h2>Observação</h2>
+				<p>Muitas são as situações do nosso dia-a-dia em que percebemos a presença de ar. Quando sentimos a brisa suave no nosso rosto, quando o vento sopra forte balançando os galhos das árvores. Mas onde entra a química nisso? O ar que respiramos é constituído por elementos químicos ou por uma mistura deles, como nitrogênio (N<sub>2</sub>), oxigênio (O<sub>2</sub>), gás carbônico (CO<sub>2</sub>) e  <span class="mouseover" title="Elementos não metálicos (He, Ne, Ar, Kr, Xe, Rn), estáveis, por possuírem 8 elétrons em sua ultima camada eletrônica. Neste grupo a exceção é o  Hélio (He) cuja estabilidade é adquirida com 2 elétrons.  "><label style="color: red">gases nobres</label></span> (He, Ne, Ar, Kr, Xe, Rn), além de outros componentes presentes naturalmente na atmosfera, como a fuligem, microrganismos, poluição e vapor de água (proveniente de rios, lagos e mares). O oxigênio (21%) e o nitrogênio (78%) são os gases mais abundantes presentes na atmosfera da terra, enquanto que, os gases nobres (0,03%) são encontrados em quantidades menores. </p>
+			
+			
+		</div>
+	</div>
+	
+	<div class="linha">
+		<div class="coluna lateral ">			
+				<br/>
+		</div>
+		<div class="coluna principal  ">
+			
+			<img src="imagens/01/ar.png" width="300" height="310"/>
+			<h3 align="center">Figura 3: Substancias químicas presentes no ar atmosférico</h3>
+			<h4 align="center">Fonte: http://www.alunosonline.com.br/upload/conteudo_
+legenda/a2f33329cc249110f39780dd6d6d4b18.jpg</h4>
+		<p>Uma das fontes mais importantes de reposição do oxigênio no ar atmosférico são as plantas. Estas retiram o gás carbônico, gerado na queima de combustíveis, como a gasolina, liberando oxigênio para atmosfera, como podemos ver na reação química abaixo:</p>
+		
+		<img src="imagens/01/reacao.png" width="370" height="150"/>
+		</div>
+	</div>
+  
+  <div class="linha">
+		<div class="coluna lateral quadro_imagem">			
+				<img src="layout/quadro-parada_obg.png"/>	
+		</div>
+		<div class="coluna principal quadro">
+			<h2>Saiba Mais</h2>
+			<p>Você sabia que até pouco tempo acreditava-se que a região amazônica era a grande responsável pela manutenção dos níveis de oxigênio da terra? Chegou a ser denominada de “pulmão da terra”. Porém, recentes pesquisas descobriram a existência de um novo “pulmão”, as algas marinhas. Apesar destas, existirem em diversas colorações, como, verde, azul, marrom, amarela e vermelha, todas as algas possuem clorofila, fazem fotossíntese e consequentemente liberam oxigênio para a atmosfera. E por existirem em grande quantidade na terra, atualmente atribui-se a elas o mérito de produzirem a maior parte do oxigênio do planeta.</p>
+		</div>
+	</div>
+  
+  
+  
+  
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="orientacoes.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="02.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: Professora Nidia Barone</p><p>Universidade Federal do Ceará - Instituto UFC Virtual</p>
+		</div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>

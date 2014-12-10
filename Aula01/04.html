@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Química</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1 style="font-style: italic;">A Química no nosso dia a dia</h1>
+			
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="01.html">Apresentação</a></li>
+                    <li><a href="02.html">Tópico 01: O corpo humano e as reações químicas</a></li>
+                    <li><a href="03.html">Tópico 02: No ar que respiramos tem química?</a></li>
+                    <li><a href="04.html">Tópico 03: A sociedade e a química</a></li>
+
+				</ul>
+			</li>
+			<li><a href="orientacoes.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="02.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 03: A sociedade e a química</h2>
+		</div>
+	</div>
+	
+    <br/>
+    <div class="linha">
+		<div class="coluna lateral ">			
+			<br/>	
+		</div>
+		<div class="coluna principal  ">
+			<h2>EFEITO CAPSULA DINÂMICA</h2>
+			<p>A Química como ciência tem contribuído ao longo dos anos para a melhoria da qualidade de vida das pessoas nas mais diversas áreas da sociedade, entre elas, destacamos, a saúde, agricultura, na síntese de novos materiais, nos cosméticos etc. Contudo é também responsável pela produção de resíduos e produtos resultantes de processos químicos que causam desequilíbrios no meio ambiente tais como poluição, chuvas ácidas, aumento do efeito estufa entre outros.</p>
+			<h2>FIM EFEITO CAPSULA DINÂMICA</h2>
+		</div>
+	</div>
+	
+	
+	<!-- SLIDER ABAS 2 -->
+	<div class="linha">
+		<div class="coluna lateral quadro_imagem">
+			<img src="layout/quadro-exemplo.png"/>	
+		</div>
+		<div class="coluna principal quadro">
+			<h2>A Química na(o):</h2>
+			<div class="abas ui-tabs ui-widget ui-widget-content ui-corner-all">
+				<ul
+					class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+					<li
+						class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a
+						href="#aba04"><span>Saúde</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba05"><span>Alimentação</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba06"><span>Agricultura</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba07"><span>Vestuário</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba08"><span>Desenvolvimento econômico e tecnológico</span></a></li>
+				</ul>
+
+				<div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+					id="aba04">
+					<h3>A química na saúde</h3>
+					<p>
+						A Química tem tido uma participação essencial na melhoria da Saúde Humana ao longo dos tempos, ela participa nas diversas fases da Saúde, desde a prevenção (desde a simples desinfecção e limpeza), ao diagnóstico, à manutenção e ao tratamento das diversas patologias, com o uso de fármacos (Teixeira, 2012). A Química (juntamente com diversas ciências) continua a ser a esperança e o caminho para os diversos desafios que as atuais ou as novas patologias apresentam.
+					</p>
+				</div>
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba05">
+					<h3>A química na alimentação</h3>
+					<p>Os átomos são as unidades básicas da matéria e da vida. Apresentam características diferentes e podem ser ligadas por forças, designadas por ligações químicas, originando moléculas. As moléculas orgânicas são a base da vida formando as proteínas, os hidratos de carbono, os lipídios ou gorduras, as vitaminas, enquanto as moléculas inorgânicas são, por sua vez, a base dos minerais. Este conjunto designa-se por nutrientes.</p>
+
+				</div>
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba06">
+					<h3>A química na agricultura</h3>
+					<p>
+						Como alimentar uma população em constante crescimento sem esgotar os recursos naturais do solo? A resposta é dada pela química. É através de produtos químicos que se fertiliza a terra, conservando e aumentando o seu potencial produtivo.
+					</p>
+
+				</div>
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba07">
+					<h3>A química no vestuário</h3>
+					<p>
+					A indústria do petróleo geram diversos produtos como o etilenoglicol, o ácido tereftálico, o dimetil tereftalato, a acrilonitrila, a adiponitrila e a caprolactama, que vão dar origem aos fios e fibras de poliéster. Essas fibras, por sua vez, misturadas ou não a fibras naturais como o algodão e a lã, vão permitir a produção de tecidos mais resistentes, mais elásticos, com melhor caimento e com melhor estabilidade de forma.
+					</p>
+
+				</div>
+				
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba08">
+					<h3>A química no desenvolvimento econômico e tecnológico </h3>
+					<p>
+					No desenvolvimento econômico e tecnológico: a indústria química transforma elementos presentes na natureza em produtos úteis ao homem. Desde a fabricação de bens como computadores e automóveis até itens como plásticos, vidros, papel e tintas são resultados de transformações químicas.
+					</p>
+
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+	
+	 <div class="linha">
+		<div class="coluna lateral quadro_imagem ">			
+			<img src="layout/reflexao.png"/>	
+		</div>
+		<div class="coluna principal quadro ">
+		<h2>PARA REFLETIR ...</h2>
+			<p>
+				
+					Nesse contexto vale ressaltar que, só o uso adequado da química poderá contribuir para reduzir a fome, melhorar a qualidade de vida e conforto da população, construir uma indústria sustentável, bem como preservar o ambiente e o patrimônio artístico e cultural. Sem a Química seria impossível manter a qualidade de vida da humanidade com alimentos, segurança ambiental longevidade e conforto.
+				
+			</p>
+		</div>
+	</div>
+	
+	 <div class="linha">
+		<div class="coluna lateral quadro_imagem ">			
+			<img src="layout/quadro-forum.png"/>	
+		</div>
+		<div class="coluna principal quadro ">
+		<h2>Fórum 1</h2>
+			<p>
+				
+					
+Durante essa aula, você aprendeu que os produtos químicos fazem parte do nosso cotidiano trazendo conforto e praticidade ao nosso dia a dia. Relacione quantos cômodos tem sua residência e liste qual a química presente em cada um deles.
+					
+			</p>
+		</div>
+	</div>
+	
+	 <div class="linha">
+		<div class="coluna lateral quadro_imagem ">			
+			<img src="layout/quadro-portfolio.png"/>	
+		</div>
+		<div class="coluna principal quadro ">
+		<h2>Portfólio 1</h2>
+			<p>
+				
+			Agora, para ampliar seus conhecimentos na química que está presente em nosso cotidiano, pesquise sobre a as novas tecnologias em que a química é empregada, como a nanotecnologia e a química verde.<br/> 
+
+Regras de formatação das respostas<br/>
+1.	Papel branco, formato A4 (210 mm x 297 mm);<br/>
+2.	Digitação em fonte tamanho 11 para o texto (Arial);<br/>
+3.	Máximo de 1 pagina;<br/>
+4.	Margens esquerda, direita, superior e inferior 2,5 cm;<br/>
+5.	Espaçamento 1,5 cm entre linhas, com texto em modo justificado.<br/>
+								
+				
+			</p>
+		</div>
+	</div>
+	
+	 <div class="linha">
+		<div class="coluna lateral quadro_imagem ">			
+			<img src="layout/quadro-referencias.png"/>	
+		</div>
+		<div class="coluna principal quadro ">
+		<h2>Referências</h2>
+			<p>
+				Galacho, C.; Graça, A. C. Química para todos – Química e Alimentos. UELINE – Jornal online da Universidade de Evora. 2012. Site: http://quimicaparatodossuevora.blogspot.com.br/2011/07/http
+bondingwithfood.html#more. Acessado em: 12/11/14.<br/><br/>
+
+Teixeira A. Química para todos. UELINE – Jornal online da Universidade de Evora. 2012. Edição 195. Site: http://quimicaparatodosuevora.blogspot.com.br/2012/02/quimica-e-saude.html. Acessada em: 12/11/14.
+
+				
+						
+			</p>
+		</div>
+	</div>
+	
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="orientacoes.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="02.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: Professora Nidia Barone</p><p>Universidade Federal do Ceará - Instituto UFC Virtual</p>
+		</div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>

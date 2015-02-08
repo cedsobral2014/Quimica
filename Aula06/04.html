@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>A Química Nossa de Cada Dia</title>
+    <link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+    <link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+    <script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+    <script type="text/javascript" src="js/ufc.js"></script>
+    <script type="text/javascript" src="js/vtip.js"></script>
+    <script type="text/javascript" src="js/fluidtextresizer.js"></script>
+    <script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+    <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+    <script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){});
+        var redimensionarFonte = new fluidtextresizer({
+            controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+            targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+            levels: 1, //number of levels users can magnify (or shrink) text
+            persist: "none", //enter "session" or "none"
+            animate: 200 //animation duration of text resize. Enter 0 to disable
+        })
+    </script>
+    <style type="text/css" media="screen">
+    </style>
+    <!--[if IE 7]>
+    <style type="text/css" media="screen">
+    #nav > li > ul > li {
+    margin-left:-15px;
+    width:230px;
+    }
+    .audio-player-toolbar > button {
+    float:left;
+    display:block;
+    background-color:white;
+    }
+    .audio-progressbar {
+    width:100px !important;
+    display:block;
+    float:left;
+    margin-left:5px;
+    margin-top:2px;
+    }
+    </style>
+    <![endif]-->
+</head>
+
+<body>
+<div class="linha" id="cabecalho">
+    <div class="titulos">
+        <h1>A Química Nossa de Cada Dia</h1>
+        <h2>Aula 06: Dessalinização da Água</h2>
+    </div>
+</div>
+
+<div class="linha" id="navegacao">
+    <ul id="nav" class="coluna lateral">
+        <li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+            <ul>
+                <li><a href="orientacoes.html">Orientações de Navegação</a></li>
+                <li><a href="01.html">Tópico 01: O que é a água, a água no planeta terra, composição da água, distribuição da água</a></li>
+                <li><a href="02.html">Tópico 02: Qualidade de água</a></li>
+                <li><a href="03.html">Tópico 03: Águas salinas</a></li>
+                <li><a href="04.html">Tópico 04: Como dessalinizar a água</a></li>
+            </ul>
+        </li>
+        <li><a href="03.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+        <li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+        <li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+        <li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+        <li><a href="pdf/03.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+    </ul>
+    <div id="topico" class="coluna principal">
+        <h2>Tópico 04: Como dessalinizar a água</h2>
+    </div>
+</div>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <br/>
+    </div>
+    <div class="coluna principal">
+        <h2>Efeito apresentação de texto Professor com varinha.</h2>
+        <h2>INÍCIO DO EFEITO:</h2>
+        <p>O que é Dessalinização? </p>
+        <p>É um processo físico-químico de retirada de sais da água, tornando-a doce e própria para o consumo.</p>
+        <p>Veja na figura abaixo um equipamento que poderá dessalinizar a água: </p>
+
+        <center><img src="imagens/04/dessalinizador.png"/></center>
+        <p><center>Foto: Dessalinizador, acervo pessoal Maria Cristina Martins Ribeiro de Souza</p></center>
+        <h2>FINAL DO EFEITO.</h2>
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/saiba_mais.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2><b>SAIBA MAIS</b></h2>
+            <p>Vejamos os possíveis processos para a dessalinização da água:</p>
+            <p>Os dessalinizadores funcionam segundo o princípio da osmose reversa que consiste em aplicar-se uma pressão no lado da solução mais salina ou concentrada, revertendo-se a tendência natural. Neste caso, a água da solução salina passa para o lado da água pura, ficando retidos os íons dos sais nela dissolvidos. A pressão a ser aplicada equivale a uma pressão maior do que a pressão osmótica característica da solução.</p>
+            <br/>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/video.png" width="100" height="50">
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2><b>VÍDEO </b></h2>
+            <p>Saiba mais sobre os dessalizadores visitando o Site:</p> 
+            <p><a target="_blank" href="https://www.youtube.com/watch?v=MUtVQYqOb1g">https://www.youtube.com/watch?v=MUtVQYqOb1g</a></p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/forum.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <br/>
+        <div class="coluna principal quadro">
+            <h2><b>FÓRUM 6</b></h2>
+            <p>Participe do fórum onde debateremos sobre o seguinte tema:</p> 
+            <p>"Conflitos x falta de água no mundo,  Brasil e em sua comunidade".</p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/portifolio.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <br/>
+        <div class="coluna principal quadro">
+            <h2><b>Portfólio 6</b></h2>
+            <p>Vamos aprofundar seus conhecimentos sobre o desperdício  de água  assistindo ao vídeo disponível em: http://www.youtube.com/watch?v=yu8gTbDhjfc.</p>
+            <p>Agora juntamente com seus colegas descreva como você poderá contribuir para evitar o desperdício de água em sua comunidade. </p>
+            <p>Regras de formatação das respostas</p>
+            <ol>
+                <li>Papel branco, formato A4 (210 mm x 297 mm);</li>
+                <li>Digitação em fonte tamanho 11 para o texto (Arial);</li>
+                <li>Máximo de 1 pagina;</li>
+                <li>Margens esquerda, direita, superior e inferior 2,5 cm;</li>
+                <li>Espaçamento 1,5 cm entre linhas, com texto em modo justificado.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+<br/>
+<br/>
+<br/>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/tarefa.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <br/>
+        <div class="coluna principal quadro">
+            <h2><b>TAREFA</b></h2>
+            <p><b>Visita técnica</b></p> 
+            <p>Nesta aula os alunos farão visitas:</p>
+            <ol>
+                <li> Ao laboratório de análise de solo e água para irrigação do IFCE-Campus Sobral.</li>
+                <li> A estufa do IFCE- Campus Sobral. Na visita observarão as pesquisas  desenvolvidas no IFCE com irrigação águas salinas.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/referencias.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <br/>
+        <div class="coluna principal quadro">
+            <h2><b>REFERÊNCIAS</b></h2>
+            <p>Du Preez, C.C., M.G. Strydom, P.A.L. le Roux, J.P. Pretorius, L.D. van Rensburg, and A.T.P. Bennie. 2000. Effect of Water Quality on Irrigation Farming along the Lower Vaal River: the Influence on Soils and Crops. WRC Report No. 740/1/00. Republic of South Africa, Pretoria.</p> 
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div id="rodape">
+        <ul id="rodape_navegacao">
+            <li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+            <li><a href="03.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+            <li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+        </ul>
+        <a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+        <a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+        <p>Responsáveis: Prof. Katiane Arrais Jales, Prof. Maria Cristina Martins Ribeiro de Souza</p><p>Centro de Educação a Distância do Ceará - CED</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    swfobject.registerObject("FlashID");
+</script>
+
+</body>
+</html>

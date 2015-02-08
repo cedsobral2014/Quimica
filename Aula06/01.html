@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>A Química Nossa de Cada Dia</title>
+    <link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+    <link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+    <script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+    <script type="text/javascript" src="js/ufc.js"></script>
+    <script type="text/javascript" src="js/vtip.js"></script>
+    <script type="text/javascript" src="js/fluidtextresizer.js"></script>
+    <script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+    <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+    <script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){});
+        var redimensionarFonte = new fluidtextresizer({
+            controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+            targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+            levels: 1, //number of levels users can magnify (or shrink) text
+            persist: "none", //enter "session" or "none"
+            animate: 200 //animation duration of text resize. Enter 0 to disable
+        })
+    </script>
+    <style type="text/css" media="screen">
+    </style>
+    <!--[if IE 7]>
+    <style type="text/css" media="screen">
+    #nav > li > ul > li {
+    margin-left:-15px;
+    width:230px;
+    }
+    .audio-player-toolbar > button {
+    float:left;
+    display:block;
+    background-color:white;
+    }
+    .audio-progressbar {
+    width:100px !important;
+    display:block;
+    float:left;
+    margin-left:5px;
+    margin-top:2px;
+    }
+    </style>
+    <![endif]-->
+</head>
+
+<body>
+<div class="linha" id="cabecalho">
+    <div class="titulos">
+        <h1>A Química Nossa de Cada Dia</h1>
+        <h2>Aula 06: Dessalinização da Água</h2>
+    </div>
+</div>
+
+<div class="linha" id="navegacao">
+    <ul id="nav" class="coluna lateral">
+        <li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+            <ul>
+                <li><a href="orientacoes.html">Orientações de Navegação</a></li>
+                <li><a href="01.html">Tópico 01: O que é a água, a água no planeta terra, composição da água, distribuição da água</a></li>
+                <li><a href="02.html">Tópico 02: Qualidade de água</a></li>
+                <li><a href="03.html">Tópico 03: Águas salinas</a></li>
+                <li><a href="04.html">Tópico 04: Como dessalinizar a água</a></li>
+            </ul>
+        </li>
+        <li><a href="orientacoes.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+        <li><a href="02.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+        <li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+        <li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+        <li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+        <li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+    </ul>
+    <div id="topico" class="coluna principal">
+        <h2>Tópico 01: O que é a água, a água no planeta terra, composição da água, distribuição da água.</h2>
+    </div>
+</div>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/boas_vindas.png" width="200px" height="50px" />
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2>Caro (a) cursista (a), </h2>
+            <p>Nesta aula abordaremos um tema que tem gerado inúmeros conflitos “A ÁGUA”. Sabe-se que a <b>água potável</b>  é um recurso cada vez mais escasso no planeta. Em 2007 a ONU (Organização das Nações Unidas) declarou que cerca de 1,1 bilhões de pessoas em todo o mundo não têm acesso a água potável e estima-se que dois milhões de crianças morrem todos os anos pela falta dela ou de saneamento básico.</p>
+            <p>Trabalharemos os tópicos abaixo:</p>
+            <p>Tópico 1- O que é a água, a água no planeta terra, composição da água, distribuição da água;</p>
+            <p>Tópico 2 – Qualidade de água;</p>
+            <p>Tópico 3 – Águas salinas; </p>
+            <p>Tópico 4 – Como dessalinizar a água.</p>
+            <br/>
+        </div>
+    </div>
+</div>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <br/>
+    </div>
+    <div class="coluna principal">
+        <h3 align="center"></h3>
+        
+        <div class="coluna principal quadro">
+            <p>Iniciaremos nossa aula lembrando - os de que “a vida humana, assim como a de todos os seres vivos depende da água”. Mas a nossa dependência da água vai além das necessidades biológicas: precisamos dela para limpar as nossas casas, lavar as nossas roupas e o nosso corpo. E mais: para limpar máquinas e equipamentos, irrigar plantações, dissolver produtos químicos, criar novas substâncias, gerar energia.</p>
+            <p>É encontrada em grandes quantidades em todos os seres vivos.No corpo humano, 71% do nosso peso é água. Contém 85% de água no nosso sangue, 80% no cérebro, 70% na pele e 30% nos nossos ossos.Nos vegetais, a quantidade de água é maior.</p>
+
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/para_refletir.png" width="100" height="50" />
+    </div>
+    <div class="coluna principal">
+    
+        <div class="coluna principal quadro">
+            <h2><b>PARA REFLETIR</b></h2>
+            <p> A atividade humana muitas vezes compromete a qualidade da água. Casas e indústrias despejam em rios e mares substâncias que prejudicam a nossa saúde. Por isso, escolher bem a água que bebemos e proteger rios, lagos e mares são cuidados essenciais à vida no planeta. </p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/interrogacao.png" width="100" height="50" alt="Ícone - Vamor Estudar" />
+    </div>
+    <div class="coluna principal">
+        <br/>
+        <br/>
+        <div class="coluna principal quadro">
+            <p><b>Você sabe qual a diferença entre água <strong><u class="mouseover" title="É aquela popularmente chamada água pura deve ter certa quantidade de alguns sais minerais dissolvidos. Para ser bebida por nós, a água deve ser incolor, insípida (sem sabor) e inodora (sem cheiro).">potável</u></strong>, <strong><u class="mouseover" title="É água que brota de fontes do subsolo. Ela costuma ter alguns sais minerais em quantidade um pouco maior que a água utilizada nas residências e, às vezes outros sais.">mineral</u></strong> e <strong><u class="mouseover" title="É aquela sem qualquer outra substância dissolvida. Para retirar sais minerais e outros produtos dissolvidos na água, utiliza-se um processo chamado destilação.">destilada</u></strong>?</b></p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/saiba_mais.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2><b>SAIBA MAIS</b></h2>
+            <p>
+                O produto dessa destilação, a água destilada, é usado em baterias de carros e na fabricação de remédios e outros produtos. Não serve para beber, já que não possui os sais minerais necessários ao nosso organismo.
+            </p>
+            
+            <p>
+                Amplie seus conhecimentos sobre DESTILAÇÃO em: 
+            </p>
+            <p><a target="_blank" href=" http://www.mundoeducacao.com/quimica/destilacao.htm"> http://www.mundoeducacao.com/quimica/destilacao.htm</a></p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/voce_sabia.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2><b>VOCÊ SABIA???</b></h2>
+            <ul>
+                <li>Os Icebergs são formados de água pura; não tem sal no iceberg apesar de estarem no mar;</li>
+                <br/>
+                <li>A água é um composto químico bem simples, formado por um átomo de oxigênio e dois átomos de hidrogênio. O oxigênio é representado por "O" e o hidrogênio por "H". A fórmula da água é, então, H2O; </li>
+                <br/>
+                <li>Em cada 1 g de água há cerca de 30 000 000 000 000 000 000 000 (leia: "trinta sextilhões") de moléculas de água.</li>
+                <br/>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <br/>
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <p>E a água no nosso planeta como se encontra distribuída?</p>
+            <div style="float:right;margin-bottom:20px;">
+                <img src="imagens/01/distribuição da água.png" width="200"/>
+                <span style="float:left;margin-top:-15px;margin-left:10px;">Foto: Distribuição de água<br/> no globo terrestre disponivel em: <br/><a target="_blank" href="http://mentos-time.blogspot.com.br/">http://mentos-time.blogspot.com.br/</a></span>
+            </div>
+            <div style="margin-top:80px;">
+                <p>97%= Oceanos e mares</p>
+                <p>2% = Geleiras inacessíveis </p>
+                <p>1% = Rios, lagos e fontes subterrâneas </p>
+            </div>
+            
+            <br/>
+        </div>
+
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div class="coluna lateral">
+        <img src="layout/saiba_mais.png" width="100" height="50"/>
+    </div>
+    <div class="coluna principal">
+        <div class="coluna principal quadro">
+            <h2><b>SAIBA MAIS</b></h2>
+            <p>
+                O Dia Mundial da Água foi instituído pela Organização das Nações Unidas (ONU), em 1992, sendo comemorado no dia 22 de março.
+            </p>
+        </div>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+
+<div class="linha">
+    <div id="rodape">
+        <ul id="rodape_navegacao">
+            <li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+            <li><a href="orientacoes.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+            <li><a href="02.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+            <li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+        </ul>
+        <a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+        <a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+        <p>Responsáveis: Prof. Katiane Arrais Jales, Prof. Maria Cristina Martins Ribeiro de Souza</p><p>Centro de Educação a Distância do Ceará - CED</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    swfobject.registerObject("FlashID");
+</script>
+
+</body>
+</html>

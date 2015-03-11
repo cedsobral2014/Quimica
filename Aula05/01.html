@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title id="tituloCursoTitle">
+   A Química Nossa de Cada Dia
+  </title>
+  <link href="css/impressao.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="css/grid.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/vtip.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/smoothness/jquery-ui-1.8.11.custom.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/layout.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/tema.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/formularios.css" media="screen" rel="stylesheet" type="text/css"/>
+  <script src="js/jquery-1.6.1.min.js" type="text/javascript">
+  </script>
+  <script src="js/jquery-ui-1.8.12.custom.min.js" type="text/javascript">
+  </script>
+  <script src="js/fancybox/jquery.fancybox-1.3.4.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.scrollTo-min.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.serialScroll-min.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.coda-slider-2.0.js" type="text/javascript">
+  </script>
+  <script src="js/ufc.js" type="text/javascript">
+  </script>
+  <script src="js/vtip.js" type="text/javascript">
+  </script>
+  <script src="js/fluidtextresizer.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.simpleSlide_min.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.jplayer.min.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.jcarousel.js" type="text/javascript">
+  </script>
+  <script src="js/jquery.jcarousel.autoscroll.js" type="text/javascript">
+  </script>
+  <script src="flash/jwplayer/jwplayer.html5.js" type="text/javascript">
+  </script>
+  <script src="flash/jwplayer/jwplayer.js" type="text/javascript">
+  </script>
+  <script language="javascript" src="js/jcanvas.min.js">
+  </script>
+  <script language="javascript" src="js/criarCanvas.js">
+  </script>
+  <script language="javascript" src="js/animarBaloes.js">
+  </script>
+  <script language="javascript" src="js/f1.js">
+  </script>
+  <script charset="utf-8" type="text/javascript">
+   $(document).ready(function(){});
+        var redimensionarFonte = new fluidtextresizer({
+            controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+            targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+            levels: 1, //number of levels users can magnify (or shrink) text
+            persist: "none", //enter "session" or "none"
+            animate: 200 //animation duration of text resize. Enter 0 to disable
+        })
+  </script>
+  <style media="screen" type="text/css">
+  </style>
+  <!--[if IE 7]>
+    <style type="text/css" media="screen">
+    #nav > li > ul > li {
+    margin-left:-15px;
+    width:230px;
+    }
+    .audio-player-toolbar > button {
+    float:left;
+    display:block;
+    background-color:white;
+    }
+    .audio-progressbar {
+    width:100px !important;
+    display:block;
+    float:left;
+    margin-left:5px;
+    margin-top:2px;
+    }
+    </style>
+    <![endif]-->
+ </head>
+ <body>
+  <div class="linha" id="cabecalho">
+   <div class="titulos">
+    <h1 id="tituloCurso">
+     A Química Nossa de Cada Dia
+    </h1>
+    <h2>
+     Aula
+     <span id="aulaID">
+      05
+     </span>
+     :
+     <span id="aulaTitulo">
+      O Açúcar que Utilizamos em Nossa Cozinha
+     </span>
+    </h2>
+   </div>
+  </div>
+  <div class="linha" id="navegacao">
+   <ul class="coluna lateral" id="nav">
+    <li id="nav-menu">
+     <a href="#">
+      <img alt="Menu" height="20" src="layout/menu-menu.png" width="20"/>
+     </a>
+     <ul id="menuTopicos">
+      <li>
+       <a href="orientacoes.html">
+        Orientações de Navegação
+       </a>
+      </li>
+      <li>
+       <a href="01.html">
+        Tópico 01: O Açúcar que Utilizamos em Nossa Cozinha
+       </a>
+      </li>
+      <li>
+       <a href="02.html">
+        Tópico 02: O Processo de Fabricação do Açúcar
+       </a>
+      </li>
+      <li>
+       <a href="03.html">
+        Tópico 03: Tipos de Açúcar que Consumimos
+       </a>
+      </li>
+      <li>
+       <a href="04.html">
+        Tópico 04: As Origens dos Açúcares
+       </a>
+      </li>
+      <li>
+       <a href="05.html">
+        Tópico 05: Atividades
+       </a>
+      </li>
+     </ul>
+    </li>
+    <li id="topAntMenu">
+     <a href="orientacoes.html" id="topAntIDMenu">
+      <img alt="Tópico Anterior" class="mouseover" height="20" src="layout/menu-anterior.png" title="Tópico Anterior" width="20"/>
+     </a>
+    </li>
+    <li id="topProMenu">
+     <a href="02.html">
+      <img alt="Próximo Tópico" class="mouseover" height="20" src="layout/menu-proximo.png" title="Próximo Tópico" width="20"/>
+     </a>
+    </li>
+    <li>
+     <a href="javascript:redimensionarFonte.setFontLevel('smaller')">
+      <img alt="Reduzir Fonte" class="mouseover" height="20" src="layout/menu-fonte_reduzir.png" title="Reduzir Fonte" width="20"/>
+     </a>
+    </li>
+    <li>
+     <a href="javascript:redimensionarFonte.setFontLevel('bigger')">
+      <img alt="Aumentar Fonte" class="mouseover" height="20" src="layout/menu-fonte_aumentar.png" title="Aumentar Fonte" width="20"/>
+     </a>
+    </li>
+    <li>
+     <a href="#" id="menu_constrate">
+      <img alt="Contraste" class="mouseover" height="20" src="layout/menu-contraste.png" title="Contraste" width="20"/>
+     </a>
+    </li>
+    <li>
+     <a href="pdf/03.pdf" target="_blank">
+      <img alt="Versão para Impressão" class="mouseover" height="20" src="layout/menu-impressao.png" title="Versão para Impressão" width="20"/>
+     </a>
+    </li>
+   </ul>
+   <div class="coluna principal" id="topico">
+    <h2>
+     Tópico
+     <span id="topicoID">
+      01
+     </span>
+     :
+     <span id="topicoTitulo">
+      O Açúcar que Utilizamos em Nossa Cozinha
+     </span>
+    </h2>
+   </div>
+  </div>
+  <div class="linha">
+   <div class="coluna lateral">
+    <img height="50px" src="layout/boas_vindas.png" width="200px"/>
+   </div>
+   <div class="coluna principal">
+    <div class="coluna principal quadro">
+     <p>
+      	<p>Caro (a) aluno (a),</p>
+		<p>Seja bem vindos a aula 04 do Curso, <b>“A QUIMICA NOSSA DE CADA DIA”</b> esperamos que aproveite bastante nossa aula, pois iremos tratar de um assunto interessante, <b>o açúcar que utilizamos em nossa cozinha</b>.</p>
+		<p style='float:right;'>Bons estudos!</p>
+
+     </p>
+    </div>
+   </div>
+  </div>
+  
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<br/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <h2><b>O AÇÚCAR UTILIZADO EM NOSSA COZINHA</b></h2>
+			<p>De tão importante, ele já chegou a ser conhecido como “ouro branco”. Hoje, por outro lado, o açúcar é apontado como um dos culpados por doenças como obesidade, diabetes, hipertensão e colesterol elevado, tornando-se o vilão dos tempos modernos. </p>
+		    
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<img src="layout/interrogacao.png" width="100px" height="50"/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <div class="coluna principal quadro">
+				<p><b>MAS PORQUE GOSTAMOS TANTO DE ALIMENTOS DOCES?</b></p>
+				<p>O sabor doce nos causa sensação de recompensa e bem-estar, pois ao ingerirmos uma guloseima, o cérebro libera opioides (substancias químicas naturais que proporcionam sensação de prazer). Estas substâncias produzem o mesmo efeito químico das drogas, condicionando o organismo a ingerir mais e mais açúcar. A grande verdade é que apesar de possuírem muitas calorias (denominadas vazias, por não possuírem nutrientes) os doces nos proporcionam satisfação e prazer, sendo fonte de energia para o organismo humano.</p>
+		    </div>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<br/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <h2><b>ENTÃO VAMOS NOS ENVEREDAR PELO MUNDO DOCE DOS AÇUCARES?</b></h2>
+			<p>Ao término dessa aula você deve ter fixados os seguintes conhecimentos:</p>
+		    <p>Inserir EFEITO ESCREVER, seguido de texto.</p>
+		    <p>- Tipos de açúcar comumente comercializados;<br/>
+		    - Etapas de processamento que transforma o caldo de cana em açúcar refinado;<br />
+		    - Os principais processos químicos ao qual o açúcar é submetido; <br/>
+		    - Como as plantas são fontes de carboidratos; <br/>
+		    - Porque os açúcares são fontes de energia ao mesmo tempo que nos fornecem calorias vazias.<br/>
+		    </p>
+		    <p>Finalizar EFEITO ESCREVER.</p>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<img src="layout/para_refletir.png" width="100px" height="50"/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <div class="coluna principal quadro">	
+				<p>Para atingir esses objetivos, é necessário, que você, aluno, se integre com as mídias propostas no material, sobretudo, que participe e estude o conteúdo com motivação, procurando esclarecer suas dúvidas, sempre que necessário.</p>
+				<p>Acreditamos na sua capacidade e desempenho, Bom estudo!</p>
+		    </div>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<br/>
+	   	</div>
+	   	<div class="coluna principal">
+			<p ><b>A QUÍMICA DO AÇÚCAR</b></p>
+			<img style="float:right;margin-left:20px;" width='250' src="imagens/01/01.png"/>
+			<p>Conhecido da humanidade há muito tempo, o açúcar, cuja descoberta é atribuída aos indianos, possui espaço importante na vida diária das sociedades. Fazem uso dele donas de casa, trabalhadores, apreciadores de cafezinho e a indústria de alimentos, a qual consome toneladas de açúcar para a produção de uma infinidade de produtos, que vão desde biscoitos a bebidas.</p>
+			<p>Inserir EFEITO SALA LOUSA, seguido de texto.</p>
+			<p>O Brasil é um dos maiores produtores e exportadores de açúcar do mundo, com 31 milhões de toneladas produzidas na safra 2008/2009. A região centro-sul produz 86%, em 6 unidades produtoras de açúcar e 186 unidades que produzem açúcar e etanol, de acordo com dados de 2010 da UNICA, União da Indústria de Cana de Açúcar. No Nordeste, onde a história e a importância do açúcar se confundem com a história da própria região, a produção anual aproxima-se dos 5 milhões de toneladas de açúcar.  </p>
+			<p>Finalizar EFEITO SALA LOUSA</p>
+			<p>A Comissão Nacional de Normas e Padrões para Alimentos em sua Resolução CNNPA nº 12 de 1978 define açúcar como, sacarose obtida da cana de açúcar (Saccharum officinarum) ou de beterraba (Beta alba, L.), por processos industriais adequados. O produto é designado "açúcar", seguido da denominação correspondente às suas características. Ex: "açúcar cristal", "açúcar mascavo" etc.</p>
+			<p>Quimicamente os açúcares encontram-se no grupo dos carboidratos, tem <span class="mouseover" title="Fórmula estrutural da sacarose<br/><br/><img width='250' src='imagens/01/02.png'/>">fórmula molecular (CH<sub>2</sub>O)n</span>.
+			<p>São encontrados na forma de monossacarídeos, dissacarídeos ou polissacarídeos. O carboidrato encontrado em maior proporção no nosso açúcar é a sacarose, um dissacarídeo formado por glicose e frutose.</p> 
+ 			<p>O açúcar é obtido da cana-de-açúcar ou da beterraba açucareira (as únicas plantas que produzem sacarose suficiente para a produção industrial), sendo formado por sacarose, que é sólido e cristalino, constituído por uma mistura de glicose + frutose.</p> 
+			
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<img src="layout/referencias.png" width="100px" height="50"/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <div class="coluna principal quadro">	
+				<h2><b>FIQUE DE OLHO NAS REFERÊNCIAS</b></h2>
+				<p>Figura 1: <a href='http://upload.wikimedia.org/wikipedia/commons/8/8c/Saccharose.png'>http://upload.wikimedia.org/wikipedia/commons/8/8c/Saccharose.png</a></p>
+				<p>Figura 2: <a href='http://4.bp.blogspot.com/-0sMOtbNmlyU/UYAhpGLje6I/AAAAAAAAAR4/rlck5EajOaM/s1600/sacarose2.png'>http://4.bp.blogspot.com/-0sMOtbNmlyU/UYAhpGLje6I/AAAAAAAAAR4/rlck5EajOaM/s1600/sacarose2.png</a></p>
+		    </div>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<img src="layout/fique_por_dentro.png" width="100px" height="50"/>
+	   	</div>
+	   	<div class="coluna principal">
+		    <div class="coluna principal quadro">	
+				
+				<p>A glicose é a única forma energética que o cérebro reconhece, a frutose é o açúcar que está presente nas frutas (além de sacarose e glicose, em menor quantidade) e a sacarose é o açúcar da cana de açúcar.</p>
+				
+		    </div>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  	<div class="linha">
+		<div class="coluna lateral">
+	    	<br/>
+	   	</div>
+	   	<div class="coluna principal">
+			<p ><b>VEJA:</b></p>
+			<img src="imagens/01/03.png"/> 
+			<p>Na natureza, os açúcares são sintetizados por meio da fotossíntese (realizado por organismos fotossintetizantes, como plantas, algas e algumas bactérias), processo que utiliza a água do solo, gás carbônico (CO<sub>2</sub>) da atmosfera e energia solar produzindo carboidratos (mais comum é a sacarose) e oxigênio (O<sub>2</sub>). </p>
+			<div style="text-align:center;">
+				<h2><b>REAÇÃO QUÍMICA DA FOTOSSÍNTESE</b></h2>
+				<img width='400' src="imagens/01/04.png"/>
+				<p>Na natureza, após serem sintetizados os açúcares são utilizados em vias aeróbicas ou anaeróbicas pelos organismos vivos (animais e seres humanos) para a obtenção de energia e manutenção da vida. Os animais se alimentando de organismos fotossintetizantes (vegetais), degradando os carboidratos presentes nas plantas em gás carbônico e água, fazendo a reação inversa da fotossíntese.</p>
+				<p>Inserir EFEITO PASSA A PÁGINA, seguido de texto.</p>
+				<p>Os carboidratos são a principal fonte de energia do organismo. Como eles se encontram presentes em diferentes alimentos, o seu consumo em excesso pode causar doenças como obesidade e diabetes. A Organização Mundial de Saúde (OMS) recomenda que a ingestão de açúcar refinado não ultrapasse 10% (aproximadamente quatro colheres de sopa rasa de açúcar) do consumo diário total de calorias (dieta de 2.000 calorias). </p>
+				<p>Finalizar EFEITO PASSA A PÁGINA</p>
+			</div>
+		</div>
+	</div>
+  	<br/>
+  	<br/>
+  	<br/>
+  	
+  <div class="linha">
+   <div id="rodape">
+    <ul id="rodape_navegacao">
+     <li>
+      <a href="#topo" title="Retornar ao topo da página">
+       Topo
+      </a>
+     </li>
+     <li id="topAntRodape">
+      <a href="orientacoes.html" id="topAntIDRodape" title="Ir para o Tópico Anterior">
+       Tópico Anterior
+      </a>
+     </li>
+     <li>
+      <a href="02.html" id="topProRodape" title="Ir para o Próximo Tópico">
+       Próximo Tópico
+      </a>
+     </li>
+     <li>
+      <a href="pdf/01.pdf" target="_blank" title="Versão para Impressão">
+       Versão para Impressão
+      </a>
+     </li>
+    </ul>
+    <a class="logo" href="http://www.virtual.ufc.br" id="logo-ufcv" target="_blank">
+     <img alt="Logo UFC" height="40" src="layout/logo-ufc_virtual-color.png" width="40"/>
+    </a>
+    <a class="logo" href="http://www.ufc.br" id="logo-ufc" target="_blank">
+     <img alt="Logo UFC Virtual" height="45" src="layout/logo-ufc-color.png" width="35"/>
+    </a>
+    <p>
+     Responsáveis:
+     <span id="responsavelCurso">
+      Prof. Katiane Arrais Jales, Prof. Maria Cristina Martins Ribeiro de Souza
+     </span>
+    </p>
+    <p>
+     Centro de Educação a Distância do Ceará - CED
+    </p>
+   </div>
+  </div>
+  <script type="text/javascript">
+   swfobject.registerObject("FlashID");
+  </script>
+ </body>
+</html>
